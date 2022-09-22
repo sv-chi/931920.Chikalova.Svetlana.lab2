@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+div{
+  margin-top: 15px;
+  font-size: 14px;
+  width: 420px;
+}
+  .text2 {
+    border: 9px solid blue;
+    padding: 30px;
+  }

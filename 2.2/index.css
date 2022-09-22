@@ -1,18 +1,27 @@
+
 .left{
-    max-width: 200px;
-    min-width: 200px;
-    position: relative; 
+    width: 25%;
     background-color:#C8FC98;
     margin: 0px;
-    padding: 10px 10px 10px 10px;
-    
+    padding: 10px;
+    height: min-content;
 }
 
-.right{
+.middle{
     width: 86%;
     padding:10px;
     background-color: white;
 }
+
+.right{
+    min-width: 200px;
+    max-width: 200px;
+    position: relative; 
+    background-color:#FFFF80;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
 .center{
     width: 20%;
 }
@@ -47,18 +56,18 @@ footer{
     background: black;
     text-align: center;
     vertical-align: middle;
-    color: yellow;
+    color: #FDE95E;
 }
 
 
 header{
     line-height: 40px;
-    background-color:#EAEAEA;
+    background-color: #EAEAEA;
     height: 50px;
     padding-bottom: 25px;
     padding:10px;
 }
 
 a{
-    color:yellow;
+    color:#FDE95E;
 }
